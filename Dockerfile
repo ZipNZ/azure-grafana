@@ -1,4 +1,4 @@
-FROM grafana/grafana:6.5.0
+FROM grafana/grafana:6.6.0
 USER root
 COPY new-entry-point.sh /new-entry-point.sh
 RUN chmod +x /new-entry-point.sh
